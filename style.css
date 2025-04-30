@@ -1,0 +1,32 @@
+#slideshow {
+  width: 250px; /* gewünschte Breite */
+  height: 250px; /* gewünschte Höhe */
+  position: relative;
+  margin: auto;
+  overflow: hidden;
+}
+
+#slideshow img {
+  position: absolute;
+  width: 50%; /* passt das Bild an die Breite des Containers an */
+  height: 50%; /* passt die Höhe an */
+  object-fit: cover; /* Bild wird zugeschnitten, behält aber Proportionen */
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+#slideshow img.active {
+  opacity: 1;
+}
+
+body{
+    <img src="dein-bild.jpg" alt="Beschreibung" style="border: 2px solid black;">
+    <img sr;
+}
+style
+    .rundes-bild {  
+        border-radius: 50%; /* Macht das Bild rund */  
+        width: 150px; /* Optional: Größe anpassen */  
+        height: 150px; /* Optional: Größe anpassen */  
+        object-fit: cover; /* Damit das Bild gut in die Form passt */  
+      }  
